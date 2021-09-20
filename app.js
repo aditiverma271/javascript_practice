@@ -20,3 +20,24 @@ console.log(arr);
 arr.push("value");
 arr.push(false)
 console.log(arr);
+
+
+//Operators
+
+const a=10;
+const b=4;
+console.log(a);
+console.log(b);
+console.log(a-b);
+console.log(a/b);
+console.log(a*b);
+console.log(a**b);
+console.log(a%b);
+console.log(b-a);
+let c=5;
+c+=1;
+console.log(c);
+c++;
+console.log(c);
+c*=5;
+console.log(c);
