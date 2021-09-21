@@ -49,3 +49,7 @@ let u=4;
 console.log("t>u",t>u);
 console.log(u>t);
 console.log(t==u);
+let r="aditi";
+let s="ania";
+if(r==s)
+alert("password incorrect");
