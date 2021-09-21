@@ -47,9 +47,24 @@ console.log(p+q);
 let t=4;
 let u=4;
 console.log("t>u",t>u);
-console.log(u>t);
-console.log(t==u);
-let r="aditi";
-let s="ania";
-if(r==s)
-alert("password incorrect");
+
+// CONDITION STATEMENTS
+
+const g=0;
+if(typeof g==="number"){
+    console.log("this is a number");
+    if(g===0){
+        console.log("number is zero");
+    }
+    else if(g%2===0){
+        console.log("number is even");
+    
+    }
+    else{
+        console.log("number is odd");
+    }
+}
+else{
+    console.log("this is not a number");
+}
+       
